@@ -1,0 +1,164 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*----------------------------------------------------------------*/
+/*-------------------------KATS MEOW------------------------------*/
+
+#nav {
+	width: 100%;
+	float: left;
+	margin: 0;
+	padding: 0px;
+	list-style: none;
+	background-color: #2D2D2D;
+	font-family: "Arial", sans-serif;
+	font-size: .9em;
+	margin-bottom: 16px;
+	font-weight: bold;
+}
+
+#nav li {
+	float: left;
+	padding: 9px 10px;
+}
+
+#nav a {
+	color: #BBBBBB;
+	text-decoration: none;
+}
+
+#nav a:hover{
+	color: #ffffff;
+}
+
+#login {
+	float: right;
+	margin-right: 20px;
+	margin-bottom: 120px;
+	height: 30px;
+	width: 85px;
+	background-color: #DA4B39;
+	border: 1px solid #DA4B39;
+	border-radius: 4px;
+	font-family: "Arial", sans-serif;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: .7em;
+}
+
+#searcharea {
+	clear: both;
+	width: 700px;
+	margin: auto;
+}
+
+#imagearea {
+	width: 289px;
+	margin: auto;
+}
+
+img {
+	width: 289px;
+	height: 100px;
+	margin-bottom: 15px;
+}
+
+#search {
+	border: 1px solid #BBBBBB;
+	width: 650px;
+	height: 20px;
+	margin-bottom: 15px;
+}
+
+#search:active {
+	border: 1px solid #4689F7;
+}
+
+fieldset {
+	width: 300px;
+	margin: auto;
+}
+
+.button {
+	height: 30px;
+	width: 120px;
+	background-color: #F2F2F2;
+	border: 1px solid #BBBBBB;
+	font-weight: bold;
+}
+
+#footer {
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border-top: 1px solid #BBBBBB;
+	color: #666666;
+}
+
+#footer li {
+	float: right;
+	padding: 9px 10px;
+	font-family: "Arial", sans-serif;
+	font-size: .9em;
+}
+
+#footer a {
+	text-decoration: none;
+	color: #666666;
+}
+
+#footer a:hover {
+	text-decoration: underline;
+	color: #666666;
+}
